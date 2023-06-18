@@ -1,0 +1,138 @@
+   .footer-container {
+    width: 100%;
+    min-height: 400px;
+    background-color: #3E003E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 0px;
+  }
+  
+  .footer-container .logo-container {
+    display: grid;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    padding: 0;
+    max-width: 350px; 
+    }
+  
+  .footer-container .logo-container .logo img {
+    max-width: 55%;
+    height: auto;
+    margin-top: 10px;
+  }
+  
+
+  .footer-container .logo-container .logo {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  .footer-container .logo-container .connect-us {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    justify-content: center;
+  }
+  
+  .footer-container .logo-container .connect-us img {
+    width: 30px;
+    height: auto;
+    padding: 10px;
+    margin-top: 15px;
+  }
+  
+  
+  .about-container {
+    height: auto;
+    text-align: left;
+    margin-left: 20px;
+    padding: 10px;
+    padding-right: 30px;
+  }
+  
+  .about-container .about {
+    font-size: 18.5px;
+    font-weight: bold;
+  }
+  
+  .about-container .about p {
+    padding: 0;
+  }
+  
+  .about-container .list-item {
+    font-size: 32.6px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .about-container .list-item::before {
+    content: "•";
+    display: inline-block;
+    width: 10px;
+    margin-left: 10px;
+    padding-right: 10px;
+    font-size: larger;
+  }
+  
+  .line {
+    border: 2px solid white;
+    min-height: 300px;
+  }
+  
+  .address-container {
+    margin-left: 20px;
+    height: auto;
+    text-align: left;
+    padding-right: 30px;
+  }
+  
+  .address-container .address .add-head {
+    font-size: 23.4px;
+    font-weight: bold;
+    padding: 5px;
+    padding-top: 20px;
+  }
+  
+  .address-container .address .add {
+    font-size: 19.5px;
+    padding: 5px;
+    padding-left: 35px;
+  }
+  
+  .address-container .contact-us .number {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 5px;
+    padding-top: 20px;
+    margin-top: 10px;
+  }
+  
+  .address-container .contact-us .name {
+    font-size: 23.4px;
+    padding: 5px;
+    margin-top: 10px;
+  }
+  
+  @media (min-width: 768px) {
+    .footer-container {
+      flex-direction:row;
+    }
+  
+    .footer-container .logo-container {
+      flex: 1;
+    }
+  
+    .footer-container .about-container {
+      flex: 1;
+    }
+  
+    .footer-container .address-container {
+      flex: 1;
+    }
+  }
+  
