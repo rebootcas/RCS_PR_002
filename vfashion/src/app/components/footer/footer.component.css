@@ -1,3 +1,4 @@
+   /* Footer Main Container  */
    .footer-container {
     width: 100%;
     min-height: 400px;
@@ -10,8 +11,10 @@
     padding: 0px;
     flex-wrap: wrap;
   }
+
   
-  .footer-container .logo-container {
+/* logo Container style */
+  .logo-container {
     display: grid;
     align-items: center;
     justify-content: flex-start;
@@ -20,34 +23,35 @@
     max-width: 350px; 
     }
   
-  .footer-container .logo-container .logo img {
+  .logo img {
     max-width: 55%;
     height: auto;
     margin-top: 10px;
   }
-  
 
-  .footer-container .logo-container .logo {
+  .logo {
     display: grid;
     align-items: center;
     justify-items: center;
   }
-  
-  .footer-container .logo-container .connect-us {
+
+  .connect-us {
     display: flex;
     align-items: center;
     padding: 0px;
     justify-content: center;
   }
   
-  .footer-container .logo-container .connect-us img {
+  .connect-us img {
     width: 30px;
     height: auto;
     padding: 10px;
     margin-top: 15px;
   }
   
-  
+
+
+  /* About container style */
   .about-container {
     height: auto;
     text-align: left;
@@ -57,39 +61,34 @@
     padding-top: 0px;
   }
   
-  .about-container .about {
+  .about {
     font-size: 27.7px;
     font-weight: bold;
-    /* font-family:'RoxboroughCF'; */
-  }
-  
-
-    .about-container .about-2 p {
-    font-size: 18.5px;
-    /* font-family: 'TT Ramillas'; */
-  }
-  
-  .about-container .list-item {
-    font-size: 32.6px;
-    font-weight: bold;
+    font-family:'RoxboroughCF';
+    word-spacing: 5px;
+    letter-spacing: 1.5px;
     cursor: pointer;
   }
   
-  .about-container .list-item::before {
-    content: "•";
-    display: inline-block;
-    width: 10px;
-    margin-left: 10px;
-    padding-right: 10px;
-    font-size: larger;
+  .about-2 {
+    font-size: 18.5px;
+    font-family: 'TTRamillas';
+    word-spacing: 5px;
+    letter-spacing: 1.5px;
   }
-  
+
+  .bold {
+      font-weight: bold;
+  }
+   
   .line {
     border: 2px solid white;
     min-width: 214px;
     height: 0px;
   }
   
+
+  /* Address Container style */
   .address-container {
     margin-left: 20px;
     height: auto;
@@ -97,37 +96,51 @@
     padding-right: 30px;
   }
   
-  .address-container .address .add-head {
+  .add-head {
     font-size: 23.4px;
     font-weight: bold;
     padding: 5px;
     padding-top: 20px;
-    /* font-family:'RoxboroughCF'; */
+    font-family:'RoxboroughCF';
+    word-spacing: 5px;
+    letter-spacing: 1.5px;
   }
   
-  .address-container .address .add {
+  .add {
     font-size: 19.5px;
     padding: 5px;
     padding-left: 35px;
-    /* font-family: 'TT Ramillas'; */
+    font-family: 'TTRamillas';
+    word-spacing: 5px;
+    letter-spacing: 1.5px;
   }
   
-  .address-container .contact-us .number {
+  .number {
     font-size: 22px;
-    font-weight: bold;
     padding: 5px;
     padding-top: 15px;
-    margin-top: 0px;
-    /* font-family: 'TT Ramillas'; */
+    font-family: 'TTRamillas';
+    word-spacing: 5px;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    color: inherit;
+  }
+  .number a {
+    text-decoration: none;
+    color: inherit;
   }
   
-  .address-container .contact-us .name {
+  .name {
     font-size: 23.4px;
     padding: 5px;
     margin-bottom: 10px;
-    /* font-family:'RoxboroughCF'; */
+    font-family:'RoxboroughCF';
+    word-spacing: 5px;
+    letter-spacing: 1.5px;  
   }
   
+
+  /* Responsive additional style */
   @media (min-width: 768px) {
     .footer-container {
       flex-direction:row;
@@ -149,20 +162,9 @@
       min-height: 300px;
       min-width: 0px;
     }
-    .address-container .contact-us .number {
-      font-size: 22px;
-      font-weight: bold;
-      padding: 5px;
+    .number {
       padding-top: 20px;
       margin-top: 10px;
-      /* font-family: 'TT Ramillas'; */
-    }
-    
-    .address-container .contact-us .name {
-      font-size: 23.4px;
-      padding: 5px;
-      margin-top: 0px;
-      /* font-family:'RoxboroughCF'; */
     }
   }
   

@@ -1,9 +1,14 @@
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
-/* 
+
 @font-face {
-    font-family: 'TT Ramillas';
+    font-family: 'TTRamillas';
+    src: url('src\assets\fonts\TTRamillas.ttf') format('truetype');
+  }
+
+ @font-face {
+    font-family: 'RoxboroughCF';
     src: url('src\assets\fonts\RoxboroughCF.ttf') format('truetype');
-  } */
+  }
 .container{
     margin-left: 5px;
     margin-right: 5px;
