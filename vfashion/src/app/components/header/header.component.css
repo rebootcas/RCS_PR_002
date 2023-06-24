@@ -1,0 +1,42 @@
+.custom-navbar {
+  background-color: #3E003E;
+  width: 100%;
+  min-height: 92px;
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+  padding-left: 30px;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+
+}
+
+li {
+  margin-right: 20px;
+  
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 37px;
+  font-family: 'RoxboroughCF';
+  padding-right: 200px;
+
+}
+
+
+.nav-link {
+  margin-left: 20px;
+}
+.navbar-toggler:hover{
+  background-color:#6b056b;
+}
