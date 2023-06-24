@@ -1,0 +1,34 @@
+.service-container {
+    width: 100%;
+    min-height: 620px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: #3E003E;
+    padding: 20px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+  }
+  .service-card p{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'TTRamillas';
+    font-size: 16.7px;
+    margin-bottom: 0;
+  }
+  .service-card .line img{
+    width: 150px;
+    height: 30px;
+  }
+  .service-card {
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+  }
+  .heading{
+    font-family: 'RoxboroughCF';
+    font-size: 55.2px;
+  }
+
+  
